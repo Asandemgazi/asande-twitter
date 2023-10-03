@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter clone </title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/blocks/sidebar-menu.css">
+    <link rel="stylesheet" href="./css/blocks/brand.css">
+    <link rel="stylesheet" href="./css/blocks/layout.css">
+    <link rel="stylesheet" href="./css/blocks/tweet.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/blocks/who-to-follow.css">
+    <link rel="stylesheet" href="./css/blocks/trends-for-you.css">
+    <link rel="stylesheet" href="./css/blocks/">
+</head>
+<body>
+    <div class= "layout">
+        <div class ="layout__left-sidebar">
+            <img src="./svg/brand.svg" class="brand"/>
+            <div class="sidebar-menu">
+                <div class="sidebar-menu__item sidebar-menu__item--active">
+            <img src="./svg/home.svg" class="sidebar-menu__item-icon" />
+            Home
+                </div>
+            <div class="sidebar-menu__item">
+                <img src="./svg/explore.svg" class="sidebar-menu__item-icon" />
+                    Explore
+                    </div>
+            <div class="sidebar-menu__item">
+            <img src="./svg/notifications.svg" class="sidebar-menu__item-icon" />
+            Notifications        
+                </div>
+            <div class="sidebar-menu__item">
+             <img src="./svg/messages.svg" class="sidebar-menu__item-icon" />
+             Messages
+            </div>
+
+            <div class="sidebar-menu__item">
+            <img src="./svg/profile.svg" class="sidebar-menu__item-icon" />
+             Profile 
+            </div>
+            <div class="sidebar-menu__item">
+                <img src="./svg/more.svg" class="sidebar-menu__item-icon" />
+                More
+            </div>
+        </div>
+      </div>
+      <div class="layout__main">
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./assets/SORAYAMA 空山基.png" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Chris
+              </div>
+              <div class="tweet__author-slug">
+                @beckiandchris
+              </div>
+              <div class="tweet__publish-time">
+                38m
+              </div>
+            </div>
+            <div class="tweet__content">
+              Thank you
+            </div>
+          </div>
+        </div>
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./assets/e8f07895-5bba-4415-a349-8871c374ec16.jpeg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Elixir Digest
+              </div>
+              <div class="tweet__author-slug">
+                @elixirdigest
+              </div>
+              <div class="tweet__publish-time">
+                10d
+              </div>
+            </div>
+            <div class="tweet__content">
+              Yet Another Guide To Build a JSON API with Phoenix 1.5 shared in
+              the latest Elixir Digest
+              <a href="https://elixirdigest.net/digests/276"
+                >https://elixirdigest.net/digests/276</a
+              >
+              @_tamas_soos #myelixirstatus #elixirlang #phoenixframework
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./assets/OIP.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Zaio Coding School 
+              </div>
+              <div class="tweet__author-slug">
+                @Zaio
+              </div>
+              <div class="tweet__publish-time">
+                12m
+              </div>
+            </div>
+            <div class="tweet__content">
+                #QTuesday. Here is Todays Question, answer wisely😀
+
+                #codingcareer #codingbasics #ZaioLearning #learntocode #developers #codingmastery #codingskills #codingtips
+              <a href="./assets/e4katjgh.png"></a>
+              <img class="tweet__image" src="./assets/e4katjgh.png" />
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./assets/SORAYAMA 空山基.png" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Becki 
+              </div>
+              <div class="tweet__author-slug">
+                @beckiandchris
+              </div>
+              <div class="tweet__publish-time">
+                7m
+              </div>
+            </div>
+            <div class="tweet__content">
+              Thank you
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./assets/OIP.jpg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Zaio Coding School
+              </div>
+              <div class="tweet__author-slug">
+                @Zaio
+              </div>
+              <div class="tweet__publish-time">
+                2m
+              </div>
+            </div>
+            <div class="tweet__content">
+              Thank you
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img class="tweet__author-logo" src="./assets/billie eilish.jpeg" />
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Nasiphi
+              </div>
+              <div class="tweet__author-slug">
+                @Nasiphi83
+              </div>
+              <div class="tweet__publish-time">
+                9h
+              </div>
+            </div>
+            <div class="tweet__content">
+              Thank you
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layout__right-sidebar-container">
+        <div class="layout__right-sidebar">
+          <div class="trends-for-you">
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__heading">
+                Trends for you
+              </div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Trending in South Africa
+              </div>
+              <div class="trends-for-you__trend-name">
+                Front-end Developer
+              </div>
+              <div class="trends-for-you__meta-information">
+                155k Tweets
+              </div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Trending in South Africa
+              </div>
+              <div class="trends-for-you__trend-name">
+                Petrol
+              </div>
+            </div>
+            <div class="trends-for-you__block">
+              <div class="trends-for-you__meta-information">
+                Trending - Trending
+              </div>
+              <div class="trends-for-you__trend-name">
+                #HaveFaith
+              </div>
+              <div class="trends-for-you__meta-information">
+                2,800 Tweets
+              </div>
+            </div>
+          </div>
+          <div class="who-to-follow">
+            <div class="who-to-follow__block">
+              <div class="who-to-follow__heading">
+                Who to follow
+              </div>
+            </div>
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./assets/oxhowril.png"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">
+                    Akhil Boddu 
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @akilboddu97
+                  </div>
+                </div>
+                <div class="who-to-follow__button">
+                  Follow
+                </div>
+              </div>
+            </div>
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./assets/qnxdd303.png"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">
+                    Saaniah Blankenberg
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @Saaniah_b
+                  </div>
+                </div>
+                <div class="who-to-follow__button">
+                  Follow
+                </div>
+              </div>
+            </div>
+
+            <div class="who-to-follow__block">
+              <img
+                class="who-to-follow__author-logo"
+                src="./assets/kwe4m68w.png"
+              />
+              <div class="who-to-follow__content">
+                <div>
+                  <div class="who-to-follow__author-name">
+                    Google
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @GOOGLE
+                  </div>
+                </div>
+                <div class="who-to-follow__button">
+                  Follow
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
